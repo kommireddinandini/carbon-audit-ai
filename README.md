@@ -70,6 +70,9 @@ The Lyzr integration registers official factor lookup, verified calculation, con
 
 Build the frontend with `npm run build` from `frontend/`, then serve `frontend/dist/` with a static web server. Run the API from the repository root with `venv\Scripts\python.exe -m uvicorn main:app --app-dir backend --host 0.0.0.0 --port 8000`. Set `LYZR_API_KEY`, `LYZR_PROVIDER`, `CARBON_AUDIT_ENV`, and a comma-separated `FRONTEND_ORIGIN` in the deployment environment. Keep `.env` outside version control and replace the development/test factor registry with reviewed official source snapshots before production reporting.
 
+##Demo Video
+Demo Video: https://youtu.be/KkmWhbQGd3I
+
 ## Limitations and next steps
 
 Some UK freight and air-travel categories require more granular activity definitions than the current normalized record provides and therefore remain `NEEDS_REVIEW`. PDF parsing is line-oriented and the current audit store is process-local. Production work should add authenticated persistence, signed source snapshots, and richer document extraction.
