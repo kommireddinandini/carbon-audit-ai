@@ -1,0 +1,5 @@
+activity,scope,unit,factor,source,source_url,year,region,methodology,factor_type
+electricity,Scope 2,kWh,0.42,TEST_ONLY,https://example.com/test-only,2025,GLOBAL,Development fixture only,test_only
+natural gas,Scope 1,therm,5.3,TEST_ONLY,https://example.com/test-only,2025,GLOBAL,Development fixture only,test_only
+road freight,Scope 3,tonne-km,0.12,TEST_ONLY,https://example.com/test-only,2025,GLOBAL,Development fixture only,test_only
+business air travel,Scope 3,passenger-km,0.18,TEST_ONLY,https://example.com/test-only,2025,GLOBAL,Development fixture only,test_only

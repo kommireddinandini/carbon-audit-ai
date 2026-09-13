@@ -206,6 +206,14 @@ tempCodeRunnerFile.py
 # Ruff stuff:
 .ruff_cache/
 
+# CarbonAudit local runtime files
+.env
+backend/uploads/
+backend/data/audit_records.json
+frontend/node_modules/
+frontend/dist/
+backend/data/*.xlsx
+
 # PyPI configuration file
 .pypirc
 

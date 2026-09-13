@@ -1,0 +1,4 @@
+activity,scope,unit,factor,source,source_url,year,region,methodology,factor_type
+electricity,Scope 2,kWh,0.13096,UK Government GHG Conversion Factors 2026,https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2026,2026,UK,Factors by Category: Electricity: UK; aggregate kg CO2e,location_based
+natural gas,Scope 1,kWh,0.20199,UK Government GHG Conversion Factors 2026,https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2026,2026,UK,Factors by Category: Natural gas; kWh Net CV; aggregate kg CO2e,direct_combustion
+electricity,Scope 2,kWh,0.19503700802971002,US EPA eGRID 2023,https://www.epa.gov/egrid/detailed-data,2023,US-CAMX,eGRID2023 SRL23 annual CO2 equivalent total output rate 429.983 lb/MWh converted to kg/kWh,location_based

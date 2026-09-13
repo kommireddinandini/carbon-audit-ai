@@ -1,0 +1,7 @@
+dataset,activity,quantity,unit,vendor,region,year
+SYNTHETIC_DEMO,electricity,12500,kWh,Demo Utility,UK,2026
+SYNTHETIC_DEMO,natural gas,240,kWh,Demo Gas,UK,2026
+SYNTHETIC_DEMO,road freight,1800,tonne-km,Demo Logistics,UK,2026
+SYNTHETIC_DEMO,business air travel,2500,passenger-km,Demo Travel,UK,2026
+SYNTHETIC_DEMO,unknown process,12,kg,Demo Vendor,UK,2026
+SYNTHETIC_DEMO,electricity,-500,kWh,Demo Utility,UK,2026
